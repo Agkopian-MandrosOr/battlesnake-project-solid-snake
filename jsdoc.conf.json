@@ -1,0 +1,20 @@
+{
+    "source": {
+      "include": ["./src"],
+      "exclude": ["./src/tests"]
+    },
+    "opts": {
+      "destination": "./docs"
+    },
+    "plugins": [],
+    "templates": {
+      "default": {
+        "layoutFile": "./path/to/custom/layout.tmpl"
+      }
+    },
+    "tags": {
+      "allowUnknownTags": true
+    },
+    "recurseDepth": 10,
+    "sourceType": "module"
+  }
